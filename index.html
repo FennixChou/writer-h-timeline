@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>作家H（陳鴻儀）爭議事件完整時間線 — 從感情糾紛到多方訴訟</title>
+<style>
+  :root { --primary: #1a1a2e; --accent: #e94560; --bg: #f8f9fa; --card: #ffffff; --text: #333; --muted: #666; --border: #e0e0e0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+  .header { background: linear-gradient(135deg, var(--primary) 0%, #16213e 100%); color: white; padding: 60px 20px; text-align: center; }
+  .header h1 { font-size: 2rem; margin-bottom: 12px; }
+  .header .subtitle { color: #ccc; font-size: 1rem; }
+  .header .date { color: #999; font-size: 0.85rem; margin-top: 8px; }
+  .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+
+  /* 人物介紹 */
+  .people-section { margin-bottom: 40px; }
+  .people-section h2 { font-size: 1.4rem; color: var(--primary); border-bottom: 3px solid var(--accent); padding-bottom: 8px; margin-bottom: 20px; }
+  .people-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+  .person-card { background: var(--card); border-radius: 10px; padding: 20px; border-left: 4px solid var(--accent); box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .person-card h3 { color: var(--accent); margin-bottom: 6px; }
+  .person-card .role { color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; }
+  .person-card p { font-size: 0.9rem; }
+
+  /* 時間線 */
+  .timeline { position: relative; padding-left: 40px; }
+  .timeline::before { content: ''; position: absolute; left: 15px; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, var(--accent), var(--primary)); }
+  .timeline-year { font-size: 1.6rem; font-weight: bold; color: var(--primary); margin: 40px 0 20px -40px; padding-left: 40px; position: relative; }
+  .timeline-year::before { content: ''; position: absolute; left: 8px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; background: var(--accent); border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 3px var(--accent); }
+  .event { position: relative; margin-bottom: 24px; background: var(--card); border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .event::before { content: ''; position: absolute; left: -32px; top: 24px; width: 12px; height: 12px; background: white; border: 3px solid var(--accent); border-radius: 50%; }
+  .event .event-date { font-size: 0.8rem; color: var(--accent); font-weight: bold; margin-bottom: 4px; }
+  .event h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--primary); }
+  .event p { font-size: 0.92rem; color: var(--text); }
+  .event .source { margin-top: 10px; font-size: 0.8rem; color: var(--muted); }
+  .event .source a { color: var(--accent); text-decoration: none; }
+  .event .source a:hover { text-decoration: underline; }
+  .event.highlight { border-left: 4px solid var(--accent); }
+  .event .tag { display: inline-block; font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; margin-right: 4px; margin-bottom: 4px; }
+  .tag-legal { background: #fff3cd; color: #856404; }
+  .tag-social { background: #d1ecf1; color: #0c5460; }
+  .tag-medical { background: #d4edda; color: #155724; }
+  .tag-media { background: #f8d7da; color: #721c24; }
+
+  /* 分析區 */
+  .analysis { background: var(--card); border-radius: 10px; padding: 30px; margin-top: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .analysis h2 { color: var(--primary); border-bottom: 3px solid var(--accent); padding-bottom: 8px; margin-bottom: 16px; }
+  .analysis h3 { color: var(--accent); margin: 16px 0 8px; }
+  .analysis ul { padding-left: 20px; }
+  .analysis li { margin-bottom: 6px; font-size: 0.92rem; }
+
+  /* 來源 */
+  .sources { background: #f1f3f5; border-radius: 10px; padding: 24px; margin-top: 30px; }
+  .sources h2 { font-size: 1.2rem; color: var(--primary); margin-bottom: 12px; }
+  .sources ul { list-style: none; padding: 0; }
+  .sources li { margin-bottom: 6px; font-size: 0.85rem; }
+  .sources a { color: var(--accent); text-decoration: none; }
+  .sources a:hover { text-decoration: underline; }
+
+  .disclaimer { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 16px; margin-top: 30px; font-size: 0.85rem; color: #856404; }
+
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.4rem; }
+    .container { padding: 20px 12px; }
+    .timeline { padding-left: 30px; }
+    .event::before { left: -22px; }
+    .people-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>作家H（陳鴻儀）爭議事件完整時間線</h1>
+  <div class="subtitle">從感情糾紛、呂秋遠私生子風波到王姿允醫師借款紛爭 — 多方訴訟全紀錄</div>
+  <div class="date">整理日期：2026 年 5 月 24 日 ｜ 資料來源：鏡週刊、ETtoday、壹蘋新聞、中時、自由時報、聯合報、Threads、Facebook</div>
+</div>
+
+<div class="container">
+
+  <!-- 關鍵人物 -->
+  <div class="people-section">
+    <h2>關鍵人物</h2>
+    <div class="people-grid">
+      <div class="person-card">
+        <h3>作家H（陳鴻儀）</h3>
+        <div class="role">作家 / 網路名人 / 生命靈數占卜師</div>
+        <p>以感情題材寫作著稱，經營 Facebook 粉專與 Threads。曾罹患攝護腺癌並接受手術治療。事件核心當事人。</p>
+      </div>
+      <div class="person-card">
+        <h3>陳珮甄（Selena）</h3>
+        <div class="role">文策院前講師 / KOL</div>
+        <p>作家H前女友，兩人曾高調求婚辦婚宴但未登記即分手。Threads 帳號 @talk2selena，後續指控作家H為「恐怖情人」。</p>
+      </div>
+      <div class="person-card">
+        <h3>王姿允醫師</h3>
+        <div class="role">無齡診所院長 / 4+2R 飲食法創始人</div>
+        <p>作家H前僱主兼友人。曾借款 30 萬元助作家H治病，後因診所闖入事件與借款糾紛反目，雙方進入司法程序。</p>
+      </div>
+      <div class="person-card">
+        <h3>林沄蓁律師</h3>
+        <div class="role">家事律師 / 呂秋遠私生子生母</div>
+        <p>受作家H邀請上直播揭露呂秋遠私生子風波，直播地點即為王姿允診所，引爆闖入診所爭議。後受作家H委任出庭打誹謗官司。</p>
+      </div>
+      <div class="person-card">
+        <h3>呂秋遠</h3>
+        <div class="role">知名律師 / 作家</div>
+        <p>因私生子風波被作家H與林沄蓁公開指控。事件間接引爆作家H與王姿允的診所闖入爭議。</p>
+      </div>
+      <div class="person-card">
+        <h3>李怡貞（絞肉機女神）</h3>
+        <div class="role">網紅</div>
+        <p>被指與陳珮甄聯手，在千人群組中公開作家H 163 張私密對話截圖（含性事細節），遭作家H提告。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 時間線 -->
+  <h2 style="font-size:1.4rem; color:#1a1a2e; border-bottom:3px solid #e94560; padding-bottom:8px; margin-bottom:20px;">事件時間線</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-year">2023</div>
+
+    <div class="event">
+      <div class="event-date">2023 年 7 月</div>
+      <h3>作家H與陳珮甄透過節目結識、交往</h3>
+      <p>兩人透過新聞談話節目《新聞挖挖哇》認識，隨後開始交往。作家H在社群高調放閃。</p>
+      <span class="tag tag-social">感情</span>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2023 年 12 月</div>
+      <h3>作家H向陳珮甄求婚成功</h3>
+      <p>作家H公開求婚，陳珮甄答應，引發粉絲祝福。</p>
+      <span class="tag tag-social">感情</span>
+    </div>
+
+    <div class="timeline-year">2024</div>
+
+    <div class="event">
+      <div class="event-date">2024 年 1 月 20 日</div>
+      <h3>舉辦婚宴，但未辦理結婚登記</h3>
+      <p>兩人在親友見證下舉辦婚宴並貼出婚宴照，但始終未至戶政機關辦理結婚登記。</p>
+      <span class="tag tag-social">感情</span>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2024 年 2 月 24 日</div>
+      <h3>結婚僅 36 天，作家H宣布「結束婚姻」</h3>
+      <p>作家H深夜在 Facebook 發文：「對不起，我搞砸了！經過 8 個月的相處之後，我和珮甄決定結束這段尚未登記的婚姻！」並列出陳珮甄 9 項「罪狀」，包括指控她「和已婚前男友仍有聯絡」。</p>
+      <span class="tag tag-social">感情</span>
+      <span class="tag tag-media">社群爆料</span>
+      <div class="source">來源：<a href="https://www.mirrormedia.mg/story/20240224edi003" target="_blank">鏡週刊</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2024 年 2 月 27 日</div>
+      <h3>陳珮甄發 IG 限動回應：「心力交瘁」</h3>
+      <p>陳珮甄在 Instagram 限時動態坦言身心俱疲，但未正面回應作家H的指控。</p>
+      <span class="tag tag-social">感情</span>
+      <div class="source">來源：<a href="https://news.tvbs.com.tw/entertainment/2408218" target="_blank">TVBS</a></div>
+    </div>
+
+    <div class="timeline-year">2025</div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 3 月 3 日</div>
+      <h3>分手一年後再開戰：作家H發 5000 字長文控訴陳珮甄</h3>
+      <p>作家H連發 3 篇超過 5000 字的文章，指控陳珮甄：<br>
+      1. 利用文策院講師身份私接案子，從中抽傭年賺 200 萬以上，涉嫌非法吸金<br>
+      2. 持續說謊、隱瞞真相<br>
+      3. 毀壞他的名聲與人設</p>
+      <span class="tag tag-legal">法律</span>
+      <span class="tag tag-media">社群爆料</span>
+      <div class="source">來源：<a href="https://star.setn.com/news/1617597" target="_blank">三立新聞</a>、<a href="https://www.ctwant.com/article/400494/" target="_blank">CTWANT</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 3 月 4-5 日</div>
+      <h3>陳珮甄發律師聲明反擊</h3>
+      <p>陳珮甄透過律師發布聲明，批評作家H過去一年間持續在社群平台汙衊她，指控內容為「憑空捏造」，並表示將正式提告。</p>
+      <span class="tag tag-legal">法律</span>
+      <div class="source">來源：<a href="https://www.chinatimes.com/realtimenews/20250305001982-260404" target="_blank">中時新聞</a></div>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 3 月 29 日</div>
+      <h3>陳珮甄正式提告：加重誹謗罪</h3>
+      <p>陳珮甄公開宣布已完成蒐證，向台北地檢署提出加重誹謗刑事告訴，「喝止前男友越來越激烈的騷擾與威脅」。她引述作家H曾公開發表「我現在一無所有我根本不在乎後果」、「我可以做任何讓她沒辦法繼續生活下去的事情」等言論，認為構成情緒勒索。</p>
+      <span class="tag tag-legal">法律</span>
+      <div class="source">來源：<a href="https://star.ettoday.net/news/2934056" target="_blank">ETtoday</a>、<a href="https://www.nownews.com/news/6664899" target="_blank">NOWnews</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 6 月初</div>
+      <h3>呂秋遠私生子風波爆發</h3>
+      <p>知名律師呂秋遠被爆有私生子，發出 5000 字 Facebook 長文聲稱是對方「誘惑」他。孩子生母林沄蓁律師不滿呂秋遠的說詞，決定公開回應。</p>
+      <span class="tag tag-media">社群爆料</span>
+      <div class="source">來源：<a href="https://www.ettoday.net/news/20250603/2971310.htm" target="_blank">ETtoday</a></div>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 6 月 2 日</div>
+      <h3>林沄蓁上作家H直播控訴呂秋遠 — 地點竟在王姿允診所</h3>
+      <p>林沄蓁首度露面，在作家H的 Facebook 直播中正面控訴呂秋遠。直播引發大量關注。<br><br>
+      <strong>關鍵爭議：</strong>直播拍攝地點被證實是王姿允的「無齡診所」，且作家H事前未告知診所就進行錄影。這成為後續作家H與王姿允反目的導火線。</p>
+      <span class="tag tag-media">直播</span>
+      <span class="tag tag-medical">診所爭議</span>
+      <div class="source">來源：<a href="https://www.ctwant.com/article/421083/" target="_blank">CTWANT</a>、<a href="https://www.chinatimes.com/realtimenews/20251120003046-260404" target="_blank">中時新聞</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 6 月 8 日</div>
+      <h3>李怡貞（絞肉機女神）公開酸作家H「裝無辜又哭可憐」</h3>
+      <p>網紅李怡貞在社群喊話陳珮甄「別讓其他人受害」，並公開批評作家H的行為模式。</p>
+      <span class="tag tag-social">社群聲援</span>
+      <div class="source">來源：<a href="https://www.chinatimes.com/realtimenews/20250608001169-260404" target="_blank">中時新聞</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 6 月 20 日</div>
+      <h3>林沄蓁受作家H委任，現身北檢出庭</h3>
+      <p>林沄蓁以律師身份為作家H的誹謗案出庭辯護。她身著俐落套裝、面帶微笑步入北檢，被問及呂秋遠相關問題則未正面回應。</p>
+      <span class="tag tag-legal">法律</span>
+      <div class="source">來源：<a href="https://udn.com/news/story/7317/8819621" target="_blank">聯合報</a></div>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 9 月 15 日</div>
+      <h3>163 張性事對話截圖外流事件</h3>
+      <p>鏡週刊獨家報導：陳珮甄涉嫌將交往期間 163 張私密對話截圖提供給網紅「絞肉機女神」（李怡貞），內容包含作家H因攝護腺癌手術後的副作用、導致房事無力等細節，被丟進近千人群組公開嘲笑。<br><br>
+      作家H控訴這是「結伴霸凌」，構成網路性騷擾，已委託律師對陳珮甄與李怡貞提告。</p>
+      <span class="tag tag-legal">法律</span>
+      <span class="tag tag-media">媒體爆料</span>
+      <div class="source">來源：<a href="https://www.mirrormedia.mg/story/20250915ent010" target="_blank">鏡週刊</a>、<a href="https://star.ettoday.net/news/3034787" target="_blank">ETtoday</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 9 月 17 日</div>
+      <h3>陳珮甄遭文策院革職</h3>
+      <p>文策院因作家H指控的吸金爭議與性騷擾案件，撤除陳珮甄的講師職務。</p>
+      <span class="tag tag-legal">行政處分</span>
+      <div class="source">來源：<a href="https://n.yam.com/Article/20250917195768" target="_blank">蕃新聞</a></div>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 11 月 20 日</div>
+      <h3>作家H控訴無齡診所「非法解僱」，王姿允正式反擊</h3>
+      <p><strong>作家H主張：</strong>在社群發文指控王姿允的無齡診所違法解僱他，要求賠償。<br><br>
+      <strong>王姿允反擊：</strong>同日在社群發文揭露：<br>
+      1. 曾在作家H突遇疾病（攝護腺癌）時慷慨借款 30 萬元<br>
+      2. 作家H不僅不還錢，反而提告求償 60 萬元<br>
+      3. 作家H曾對勞資顧問表示「給我和解金六十萬，最少最少也要個三十萬」<br>
+      4. 作家H多次在非營業時間帶陌生人進入診所談私事<br>
+      5. 6 月直播控訴呂秋遠時，未告知就在診所內拍攝</p>
+      <span class="tag tag-legal">法律</span>
+      <span class="tag tag-medical">診所爭議</span>
+      <div class="source">來源：<a href="https://www.chinatimes.com/realtimenews/20251120003046-260404" target="_blank">中時新聞</a></div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">2025 年 11 月 21 日</div>
+      <h3>無齡診所發布三頁律師聲明函</h3>
+      <p>王姿允所屬無齡診所正式委託律師發布聲明：「近日有心人士在網路上對本診所提出之不實言論，本診所已委託律師提起訴訟。」聲明強調診所遭受「不實言論攻擊」，將循法律途徑解決。<br><br>
+      王姿允表示：「真相判決書都可以看到」，在判決出爐前將不再多作評論。</p>
+      <span class="tag tag-legal">法律</span>
+      <div class="source">來源：<a href="https://www.mirrormedia.mg/story/20251121edi038" target="_blank">鏡週刊</a>、<a href="https://news.nextapple.com/entertainment/20251121/8FDD7096A973EB45E305ADF501D857E3/lazypack" target="_blank">壹蘋新聞</a></div>
+    </div>
+
+    <div class="event highlight">
+      <div class="event-date">2025 年 12 月 4 日</div>
+      <h3>陳珮甄被控性騷擾成立</h3>
+      <p>台北市政府性平會認定陳珮甄對作家H的「性騷擾成立」，理由是她描述性事過程造成對方不舒服。<br><br>
+      陳珮甄接受 ETtoday 專訪時含淚表示，這個結果對她是「徹底的二度傷害」，她強調自己才是關係中的受害者，卻被加害者反控性騷擾。她後悔當初與作家H結婚。</p>
+      <span class="tag tag-legal">法律</span>
+      <div class="source">來源：<a href="https://www.ettoday.net/news/20251204/3078711.htm" target="_blank">ETtoday</a>、<a href="https://ent.ltn.com.tw/news/breakingnews/5268240" target="_blank">自由時報</a></div>
+    </div>
+
+    <div class="timeline-year">2026</div>
+
+    <div class="event">
+      <div class="event-date">2026 年（持續中）</div>
+      <h3>多起訴訟進行中，各方等待判決</h3>
+      <p>截至 2026 年 5 月，以下案件仍在司法程序中：<br>
+      1. 陳珮甄 vs 作家H — 加重誹謗罪<br>
+      2. 作家H vs 陳珮甄、李怡貞 — 性騷擾 / 網路霸凌<br>
+      3. 作家H vs 無齡診所（王姿允）— 非法解僱求償<br>
+      4. 無齡診所 vs 作家H — 不實言論訴訟<br>
+      5. 陳珮甄 — 性騷擾裁定後續訴願中<br><br>
+      陳珮甄在 Threads 發布完整事件列表與證據，呼籲社會正視「恐怖情人」以情緒、肢體暴力傷害伴侶的現象。作家H則在 Threads 持續回應，雙方仍在社群平台隔空交火。</p>
+      <span class="tag tag-legal">法律</span>
+      <span class="tag tag-social">社群</span>
+    </div>
+
+  </div>
+
+  <!-- 爭議分析 -->
+  <div class="analysis">
+    <h2>爭議焦點分析</h2>
+
+    <h3>一、作家H vs 王姿允（借款與診所爭議）</h3>
+    <ul>
+      <li><strong>核心爭點：</strong>30 萬借款是友情相助還是勞資糾紛的一部分？作家H索賠 60 萬是合理勞資訴求還是恩將仇報？</li>
+      <li><strong>王姿允立場：</strong>在作家H罹癌時雪中送炭，借款 30 萬協助治療，如今反被提告求償 60 萬，診所還被未經同意闖入拍直播</li>
+      <li><strong>作家H立場：</strong>遭診所非法解僱，依法請求資遣費與賠償，與借款為不同議題</li>
+      <li><strong>目前狀態：</strong>雙方已委託律師，案件進入司法程序</li>
+    </ul>
+
+    <h3>二、作家H vs 陳珮甄（感情糾紛與誹謗）</h3>
+    <ul>
+      <li><strong>核心爭點：</strong>分手後的持續攻擊是揭露真相還是騷擾報復？</li>
+      <li><strong>作家H立場：</strong>陳珮甄利用文策院資源違法吸金、聯合網紅霸凌、外洩 163 張私密對話構成性騷擾</li>
+      <li><strong>陳珮甄立場：</strong>作家H是「恐怖情人」，分手後持續一年以上的社群攻擊構成加重誹謗與情緒勒索，自己罹患重度憂鬱症</li>
+      <li><strong>目前狀態：</strong>陳珮甄被認定性騷擾成立（正訴願中），同時她對作家H的誹謗告訴也在審理中</li>
+    </ul>
+
+    <h3>三、呂秋遠私生子風波（間接關聯）</h3>
+    <ul>
+      <li><strong>關聯性：</strong>作家H介入呂秋遠私生子事件，邀林沄蓁上直播，直播地點恰好在王姿允診所，成為壓垮作家H與王姿允關係的最後一根稻草</li>
+      <li><strong>林沄蓁角色轉換：</strong>從事件當事人（呂秋遠孩子生母）轉為作家H的訴訟代理律師</li>
+    </ul>
+
+    <h3>四、事件觀察</h3>
+    <ul>
+      <li>此案涉及感情糾紛、勞資爭議、名譽權、性騷擾認定、網路言論自由等多個法律面向，相互交織</li>
+      <li>社群媒體成為雙方的主戰場，每一次發文都引發新一輪輿論攻防</li>
+      <li>多位當事人的角色在事件中不斷轉換（朋友→敵人、受害者→被告），使得事件愈趨複雜</li>
+      <li>最終真相有待司法判決釐清，目前各方說法仍存在重大歧異</li>
+    </ul>
+  </div>
+
+  <!-- 資料來源 -->
+  <div class="sources">
+    <h2>資料來源</h2>
+    <ul>
+      <li><a href="https://www.mirrormedia.mg/story/20251121edi038" target="_blank">鏡週刊 — 從友情到反目！作家H遭爆「反咬借錢恩人」正妹女醫怒揭</a></li>
+      <li><a href="https://news.nextapple.com/entertainment/20251121/8FDD7096A973EB45E305ADF501D857E3/lazypack" target="_blank">壹蘋新聞 — 作家H控違法！女醫不忍了揭底線 借30萬治病竟被恩將仇報</a></li>
+      <li><a href="https://www.chinatimes.com/realtimenews/20251120003046-260404" target="_blank">中時新聞 — 遭認證偷闖診所「讓林沄蓁直播控呂秋遠」作家H反擊</a></li>
+      <li><a href="https://star.ettoday.net/news/2934056" target="_blank">ETtoday — 陳珮甄告作家H加重誹謗！分手1年屢遭攻擊</a></li>
+      <li><a href="https://star.ettoday.net/news/3034787" target="_blank">ETtoday — 作家H「163張性事細節」遭公開！控訴陳珮甄結伴霸凌</a></li>
+      <li><a href="https://www.mirrormedia.mg/story/20250915ent010" target="_blank">鏡週刊 — 怨偶開撕揭瘡疤／獨家！性事細節遭網紅公開</a></li>
+      <li><a href="https://www.ettoday.net/news/20251204/3078711.htm" target="_blank">ETtoday — 獨／陳珮甄被控性騷成立！淚曝訴願內幕</a></li>
+      <li><a href="https://udn.com/news/story/7317/8819621" target="_blank">聯合報 — 呂秋遠私生子的生母 今受「作家H」委任出庭打誹謗官司</a></li>
+      <li><a href="https://www.ettoday.net/news/20250603/2971310.htm" target="_blank">ETtoday — 呂秋遠公布生母害失業 林女哭著直播曝交往始末</a></li>
+      <li><a href="https://www.ctwant.com/article/400494/" target="_blank">CTWANT — 遭控用文策院吸金百萬！陳珮甄開告作家H惡意誹謗</a></li>
+      <li><a href="https://star.setn.com/news/1617597" target="_blank">三立新聞 — 分手1年再開戰！作家H怒轟陳珮甄 5000字長文曝</a></li>
+      <li><a href="https://ent.ltn.com.tw/news/breakingnews/5268240" target="_blank">自由時報 — 陳珮甄被控性騷作家H成立</a></li>
+      <li><a href="https://newtalk.tw/news/view/2025-11-21/1005803" target="_blank">Newtalk — 借30萬治病卻被求償60萬？網紅醫怒揭作家H「恩情換造謠」內幕</a></li>
+      <li><a href="https://www.threads.com/@talk2selena/post/DM4stzwySar" target="_blank">Threads @talk2selena — 陳珮甄完整事件列表與證據</a></li>
+      <li><a href="https://www.threads.com/@h0711writer" target="_blank">Threads @h0711writer — 作家H 個人帳號</a></li>
+      <li><a href="https://www.threads.com/@drjywang" target="_blank">Threads @drjywang — 王姿允醫師 個人帳號</a></li>
+    </ul>
+  </div>
+
+  <div class="disclaimer">
+    <strong>聲明：</strong>本文僅根據公開新聞報導與社群貼文整理，旨在呈現事件各方的公開主張，不代表任何立場或判斷。所有爭議事項之最終認定，以司法判決為準。部分細節可能因資訊更新而有所變動，建議讀者自行查閱最新報導。
+  </div>
+
+</div>
+
+</body>
+</html>
